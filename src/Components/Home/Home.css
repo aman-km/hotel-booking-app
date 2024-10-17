@@ -1,0 +1,45 @@
+.hero {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    align-items: center;
+    font-family: sans-serif;
+    border-bottom: 2px solid #111;
+    padding-bottom: 50px;
+}
+
+.hero1 {
+    width: 50%;
+}
+
+.hero h1 {
+    font-weight: 700;
+}
+
+.hero2 {
+    width: 50%;
+}
+
+.hero2 img {
+    width: 650px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.featuredHotels{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.featuredHotels h2{
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: wavy; 
+
+}
